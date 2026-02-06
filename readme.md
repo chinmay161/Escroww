@@ -46,14 +46,6 @@ This configuration is defined in project metadata.
 * Escrow dashboard UI
 * Devnet deployment
 
-### Optional (Not Included)
-
-* Dispute resolution
-* Escrow cancellation
-* SPL token support
-* Notifications
-* Reputation tracking
-
 ---
 
 ## Tech Stack
@@ -273,12 +265,6 @@ After deadline:
 * Reputation indexing
 * Notification services
 * Analytics dashboard
-
----
-
-## License
-
-ISC
 
 ---
 
