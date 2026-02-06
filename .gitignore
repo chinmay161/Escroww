@@ -1,0 +1,61 @@
+# ===============================
+# Node / Frontend
+# ===============================
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+# Environment / Secrets
+# ===============================
+.env
+.env.local
+.env.*.local
+
+# ===============================
+# Rust / Anchor / Solana
+# ===============================
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Anchor build artifacts
+.anchor/
+.cache/
+dist/
+
+# Solana keypairs
+*.json
+!package.json
+!tsconfig.json
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# OS / Editor junk
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Python (if backend scripts used)
+# ===============================
+__pycache__/
+*.pyc
+venv/
+.env/
+
+ProjectCode.docx
